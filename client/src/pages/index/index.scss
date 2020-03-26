@@ -1,0 +1,20 @@
+.index{
+    height: 100vh;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    &-fabs{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 150px;
+        left: 0;
+        z-index: 1;
+    }
+}

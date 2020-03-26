@@ -1,0 +1,35 @@
+.headbar {
+  &-wrap {
+    background-image: url(https://7869-xiaozhou-puioe-1301588312.tcb.qcloud.la/bg.jpg?sign=d20e9fd5d24b37b4a34e71ca9179a261&t=1584497754);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    .logo{
+        width: 200px;
+    }
+  }
+  &-wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    mix-blend-mode: screen;
+    height: 100px;
+  }
+  &-text{
+      margin-top: 40px;
+  }
+}
